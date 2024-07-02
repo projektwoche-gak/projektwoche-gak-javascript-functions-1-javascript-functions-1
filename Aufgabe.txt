@@ -1,0 +1,19 @@
+Kapitalisieren Übung
+
+Definiere eine Funktion namens capitalize, die ein String-Argument akzeptiert und einen neuen String zurückgibt, bei dem der erste Buchstabe großgeschrieben ist (aber der Rest des Strings unverändert bleibt).
+Zum Beispiel:
+
+capitalize('aubergine') // "Aubergine"
+capitalize('pamplemousse') // "Pamplemousse"
+capitalize('tintenfisch') // "Tintenfisch"
+
+
+Hinweise:
+
+    Denke daran, dass Strings unveränderlich sind, was bedeutet, dass du den ersten Buchstaben im ursprünglichen String nicht einfach ändern kannst. Du musst einen neuen String erstellen, den du zurückgibst.
+
+    Isoliere den ersten Buchstaben und mache ihn groß. (Benutze eine String-Methode, um zu helfen!)
+
+    Füge diesen ersten Buchstaben zum Rest des ursprünglichen Strings hinzu, der so geschnitten wurde, dass der ursprüngliche erste Buchstabe weggelassen wird (benutze eine String-Methode, um zu helfen!)
+
+    Zum Beispiel: 'aubergine' wird zu 'A' + 'ubergine'
